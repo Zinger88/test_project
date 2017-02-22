@@ -1,0 +1,31 @@
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	cursor: pointer;
+	border: none;
+	background-color: transparent;
+	
+	
+}
+
+.btn-default {
+	color: $aqua;
+	border: 1px solid $aqua;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-weight: 700;
+	border-radius: 2px;
+	padding: 15px;
+	transition: .5s ease;
+	.no-touchevents &:hover {
+
+	}
+}
+
+.btn-primary {
+
+	.no-touchevents &:hover {
+
+	}
+
+}

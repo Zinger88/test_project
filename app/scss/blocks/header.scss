@@ -1,0 +1,87 @@
+
+.layout-header {
+	background-image: url('/Drop-Your-Image-here1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	min-height: 670px;
+	
+	.overlay{
+		min-height: 670px;
+	}
+	
+	.navbar-inverse{
+		background-color:inherit;
+		border: none;
+
+		.navbar-header{
+
+			.logo{
+				background-image: url('/logo.svg');
+				background-repeat: no-repeat;
+				width: 130px;
+				height: 50px;
+				margin-top: 15px;
+
+			}
+		}
+	}
+	
+}
+.container
+	.main-slider{
+		.header-content, .header-content1{
+			margin: 100px auto;
+			margin-bottom: 0;
+			text-align: center;
+			color: white;
+
+			hr{
+				border: none;
+				color: $aqua; 
+				background-color: $aqua; 	
+				height: 1px;
+				width: 50px;
+			}
+
+			p{
+				margin-bottom:0;
+				font-size: 15px;
+			}
+
+			button{
+				margin-top: 50px;
+				margin-bottom: 65px;
+			}
+		}
+		
+	}
+
+.navbar-inverse .navbar-nav{
+	
+	margin-top:20px;
+	
+	li {
+		padding-right: 5px;
+		.active{
+			color: $aqua;
+		}
+		
+		a{
+			color: white;
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 13px;
+			transition: .4 ease;
+			
+			&:hover{
+				color: #00e0d0;
+				cursor: pointer;
+			}
+			
+			&:last-child{
+				padding-right: 0;
+			}
+		}
+	}
+}
